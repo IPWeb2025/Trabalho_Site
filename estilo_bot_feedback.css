@@ -1,0 +1,14 @@
+.envio {
+ background-color: #cc4162;
+ color: #fffcf2;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 16px;
+ margin: 20px;
+}
+.envio:hover {
+   background-color: #8a1b49;
+   color:#fffcf2
+}

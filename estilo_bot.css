@@ -1,0 +1,83 @@
+.taxonomia{
+ background-color: #EACD61;
+ color: #053f67;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 16px;
+ margin: 20px;
+}
+.taxonomia:hover {
+   background-color: #053f67;
+   color:#EACD61
+}
+
+.virus{
+ background-color: #EACD61;
+ color: #053f67;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 16px;
+ margin: 20px;
+}
+.virus:hover {
+   background-color: #053f67;
+   color:#EACD61
+}
+
+.bacteria{
+ background-color: #EACD61;
+ color: #053f67;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 16px;
+ margin: 20px;
+}
+.bacteria:hover {
+   background-color: #053f67;
+   color:#EACD61
+}
+
+.protistas{
+ background-color: #EACD61;
+ color: #053f67;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ margin: 20px;
+}
+.protistas:hover {
+   background-color: #053f67;
+   color:#EACD61
+}
+
+.fungos{
+ background-color: #EACD61;
+ color: #053f67;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ margin: 20px;
+}
+.fungos:hover {
+   background-color: #053f67;
+   color:#EACD61
+}
+
+.feedback{
+ background-color: #EACD61;
+ color: #053f67;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ margin: 20px;
+}
+.feedback:hover {
+   background-color: #053f67;
+   color:#EACD61
+}

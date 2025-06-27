@@ -1,0 +1,34 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="imagex/png" href="viraldo.png">
+    <title> Vídeo-aula </title>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="estilo_yt.css">
+    <a target="main"></a>
+    <body>
+        
+        <h1> Vírus </h1>
+
+        <p> 
+            <b> - Assista agora uma vídeo-aula para complementar seus estudos: </b>
+        </p>
+
+        <div id="videoContainer"></div> 
+
+        <script>
+            const videoId = "5EjdXRcSnQo"; // ID do vídeo do YouTube
+            const iframe = document.createElement("iframe");
+
+            iframe.width = "560";
+            iframe.height = "315";
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+            iframe.title = "YouTube video player";
+            iframe.frameBorder = "0";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframe.allowFullscreen = true;
+
+            document.getElementById("videoContainer").appendChild(iframe);
+        </script>
+    </body>
+</html>

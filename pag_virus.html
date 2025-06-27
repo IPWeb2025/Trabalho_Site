@@ -1,0 +1,85 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="imagex/png" href="viraldo.png">
+    <title> Vírus </title>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="estilo_virus.css">
+    <a target="main"></a>
+
+    </head> 
+
+    <body>
+        <h1> Vírus </h1>
+        <p>
+            <b> - O que são, características e importância: </b> <br/><br/>
+            Os vírus são seres acelulares, ou seja, não possuem estrutura celular, e por isso não são considerados seres vivos por muitos cientistas. Eles são formados basicamente por material genético (DNA ou RNA) envolvido por uma cápsula proteica, chamada capsídeo. Alguns vírus também possuem um envelope lipídico, derivado da membrana da célula hospedeira.
+            <ul type = circle> 
+                <b>Características dos vírus: </b><br/><br/>
+                <li> Acelulares: Não possuem células, organelas, metabolismo próprio nem ribossomos; </li> 
+                <li> Parasitismo obrigatório: Só conseguem se reproduzir dentro de células vivas, pois usam a maquinaria da célula hospedeira para produzir novos vírus; </li> 
+                <li> Altamente específicos: Cada tipo de vírus geralmente infecta apenas certos tipos de células (ex: vírus da gripe em células do trato respiratório humano); </li> 
+                <li> Muito pequenos: São menores que bactérias, visíveis apenas ao microscópio eletrônico. </li>
+
+            </ul>
+            </p>
+
+            <p id="sasuke">
+                <b>- Reprodução viral </b> <br/><br/>
+                O ciclo de vida do vírus ocorre em duas etapas principais: <br/> <br/>
+                
+                1. Ciclo lítico:
+                O vírus invade a célula, assume o controle dela, produz novos vírus e no final causa a lise (ruptura) da célula, liberando os vírus formados. <br/> <br/>
+
+                2. Ciclo lisogênico:
+                O material genético do vírus se integra ao DNA da célula hospedeira e pode permanecer inativo por um tempo, sendo replicado junto com o DNA da célula. Em algum momento, pode entrar no ciclo lítico. <br/> <br/>
+
+                <b>- Doenças causadas por vírus: </b><br/> <br/>
+                Os vírus são causadores de muitas doenças conhecidas, como: <br/>
+                > Gripe e resfriado <br/>
+                > COVID-19 (pelo coronavírus SARS-CoV-2) <br/>
+                > AIDS (pelo HIV) <br/>
+                > Hepatite (A, B, C etc.) <br/>
+                > Dengue, zika e chikungunya (transmitidos pelo mosquito Aedes aegypti) <br/> <br/>
+                
+                <b>- importância dos vírus: </b><br/> <br/>
+                > Na medicina: causam doenças, mas também são estudados para vacinas e terapias genéticas. <br/>
+                > Na biotecnologia: vírus modificados podem ser usados para entregar genes terapêuticos em células doentes. <br/>
+                > No meio ambiente: regulam populações de seres vivos e participam do ciclo de nutrientes. <br/> <br/>
+            
+
+            <ul type = circle> 
+                <b>Resumo: </b><br/> <br/>
+                <li> Vírus não possuem células e não têm metabolismo próprio; </li> 
+                <li> São parasitas intracelulares obrigatórios; </li> 
+                <li> Formados por DNA ou RNA e um capsídeo proteico; </li> 
+                <li> Reproduzem-se por meio do ciclo lítico ou lisogênico. </li> 
+                <li> Causam diversas doenças humanas, como gripe, COVID-19 e AIDS; </li> 
+                <li> São importantes na medicina, biotecnologia e ecologia. </li> 
+            </ul>
+
+        </p>
+
+        <p> 
+            <b> - Assista agora uma vídeo-aula para complementar seus estudos: </b>
+        </p>
+
+        <div id="videoContainer"></div> 
+
+        <script>
+            const videoId = "5EjdXRcSnQo"; // ID do vídeo do YouTube
+            const iframe = document.createElement("iframe");
+
+            iframe.width = "560";
+            iframe.height = "315";
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+            iframe.title = "YouTube video player";
+            iframe.frameBorder = "0";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframe.allowFullscreen = true;
+
+            document.getElementById("videoContainer").appendChild(iframe);
+        </script>
+
+    </body>
+</html>

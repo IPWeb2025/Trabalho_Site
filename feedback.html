@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="estilo_feedback.css">
+		<link rel="stylesheet" type="text/css" href="estilo_bot_feedback.css">
+
+		<link rel="icon" type="text/css" href="viraldo.png">
+		<title>Micro Mundo</title>
+	</head>
+
+		<body>
+			<Center>
+				<h1>Avalie nosso site!</h1>
+
+				<form> 
+					<label><b>Você é: </b></label><br/>
+					<select multiple>
+					<option>Aluno(a)</option>
+					<option>Professor(a)</option>
+					<option>Visitante</option>
+					</select>
+				</form>
+
+				<label><b>Insira sua Avaliação:</b></label><br/>
+					
+				<textarea cols="50" rows="5" wrap="soft"></textarea><br/>
+
+				<label><b>Visitaria nosso site novamente?</b></label><br/>	
+
+				<input type="radio" name="retorno"/>Sim<br/>
+
+				<input type="radio" name="retorno"/>Não<br/>
+
+				<input type="radio" name="retorno"/>Talvez<br/>
+
+				<button onclick="clicou()" class="envio" fun> Enviar </button> 
+				
+				<script>
+					function clicou() {
+						window.alert('Avaliação enviada com sucesso!')
+					}	
+				</script> 
+
+				<p> <b> Tem algo a mais a dizer? Aqui está nosso e-mail para contato: </b> </p> 
+
+				<p> micro.mundo.contato@gmail.com </p>
+
+
+			</Center>
+		</body>
+
+</html>

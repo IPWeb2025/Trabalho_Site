@@ -1,0 +1,27 @@
+p, ul {
+   font-size: 18px;
+   color: #01162e;
+   background-color: #fffcf2;
+   padding: 0px;
+   text-align: justify;
+}
+
+sasuke {
+    padding: 0px;
+    font-size: 18px;
+    color: #01162e;
+    background-color: #fffcf2;
+    padding: 10px;
+    text-align: justify;
+}
+
+body {
+	font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #333;
+   padding: 20px;
+}
+
+h1 {
+   color: #053f67;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
